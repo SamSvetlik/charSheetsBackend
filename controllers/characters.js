@@ -1,13 +1,14 @@
 const characters = require('../characters.json')
 
 const char = async (req, res) => {
-    const input = req.params.character
+    const input = req.params.character.toUpperCase()
     console.log(input)
     console.log(characters)
-    console.log(characters.input)
-    if (characters.input) {
-        res.send(`You requested info on ${input}`)
-    } else res.send('Character not found')
+    characters.forEach(character => {
+        if (character.name === input) {
+            res.send(`You requested info on ${input}`)
+        } else res.send('Character not found')
+    })
 }
 
 module.exports = {char}
