@@ -6,7 +6,7 @@ const char = async (req, res) => {
     console.log(characters)
     characters.forEach(character => {
         if (character.name === input) {
-            res.send(`You requested info on ${input}`)
+            res.json(character)
         } else res.send('Character not found')
     })
 }

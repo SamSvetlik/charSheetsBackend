@@ -21,7 +21,7 @@
         "skills": ["Animal Handling", "Athletics", "Deception", "Indimidation", "Nature", "Perception", "Survival"],
         "bio": "Memphis wandered into the Feywild as a child. After many years, he found his way out, but the years alone and the ambient magics had changed him. He preferred to live alone in the forest, but could be persuaded to help out with promises of treats.",
         "maxHP": 125,
-        "AC": "19",
+        "AC": 19,
         "initiative": 6,
         "speed": 40,
         "hitDice": 12,
@@ -64,7 +64,7 @@
         ],
         "equipment": [
             [0, 8, 0, 0, 0],
-            "Explorer's Pack", "4 Javelins", "2 Nets", "Shield", "Traveler's Clothes", "A multicolored D6", "A scrap of cloth from an old banner", "a glass jar of 'Griffin Grease'"
+            "Explorer's Pack", "4 Javelins", "2 Nets", "Shield", "Traveler's Clothes", "A multicolored D6", "A scrap of cloth from an old banner", "A glass jar of 'Griffin Grease'"
         ]
     }
 ]
